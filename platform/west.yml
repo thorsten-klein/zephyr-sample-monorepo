@@ -1,0 +1,31 @@
+---
+manifest:
+  remotes:
+    - name: zephyrproject-rtos
+      url-base: https://github.com/zephyrproject-rtos
+  projects:
+    - name: zephyr
+      remote: zephyrproject-rtos
+      revision: v4.2.0
+      import:
+        name-allowlist:
+          - hal_nxp
+          - hal_nordic
+          - nrf_hw_models
+          - nrf_wifi
+          - mcuboot
+          - mbedtls
+          - littlefs
+          - net-tools
+          - segger
+          - tinycrypt
+          - trusted-firmware-m
+          - zcbor
+          - picolib
+          - openthread
+          - hostap
+          - cmsis
+          - cmsis-dsp
+          - cmsis_nn
+          - cmsis_6
+      path: zephyr-rtos

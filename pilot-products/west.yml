@@ -1,0 +1,6 @@
+---
+manifest:
+  projects:
+    - name: platform
+      remote: local
+      path: ../platform
